@@ -32,15 +32,19 @@ La consola nos indicará que el proyecto se encuentra escuchando en la ruta http
 
 En un navegador podemos abrir la ruta http://localhost:5004/swagger para ver la documentación de los endpoint abiertos.
 
-Al realiar la primera consulta el proyecto inyectará usuarios de prueba, uno de ellos es:
+Al realizar la primera consulta el proyecto inyectará usuarios de prueba, uno de ellos es:
 
 Usuario: a09281@tester.com
 Contraseña: T3mp0r4l123#
 
 Para poder hacer uso de cualquiera de los endpoints de usuarios es necesario primero obtener un token JWT mediante el endpoint Seguridad/Login.
+
+Se puede obtener el JWT con las credenciales anteriores.
+
 Una vez obtenido es necesario agregarlo a las consultas que se realicen creando un header de la forma:
 
 Authorization: Bearer + Token.
 
 En caso de no agregar el token se negará el uso del endpoint Usuario(s).
 
+Para realizar pruebas se recomienda el uso de aplicaciones como Postman ya que facilitan la adición del encabezado Authorization.
