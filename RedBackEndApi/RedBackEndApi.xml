@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RedBackEndApi</name>
+    </assembly>
+    <members>
+        <member name="T:RedBackEndApi.Controllers.BaseController">
+            <summary>
+            Controller que contiene funciones generales
+            </summary>
+        </member>
+        <member name="M:RedBackEndApi.Controllers.BaseController.GeneraObjectResult(System.Net.Http.HttpRequestException)">
+            <summary>
+            Genera una respuesta personalizada de acuerdo al tipo de excepción recibido
+            </summary>
+            <param name="ex"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RedBackEndApi.Controllers.SeguridadController">
+            <summary>
+            Controlador de las funciones de seguridad
+            </summary>
+        </member>
+        <member name="M:RedBackEndApi.Controllers.SeguridadController.#ctor">
+            <summary>
+            Inicializa los contratos del controlador
+            </summary>
+        </member>
+        <member name="M:RedBackEndApi.Controllers.SeguridadController.Login(RedBackEnd.Business.Modelos.LoginModel)">
+            <summary>
+            Función para inicio de sesion
+            </summary>
+            <param name="login"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RedBackEndApi.Controllers.UsuariosController">
+            <summary>
+            Controlador de operaciones con usuarios
+            </summary>
+        </member>
+        <member name="M:RedBackEndApi.Controllers.UsuariosController.#ctor">
+            <summary>
+            Inicializa los contratos
+            </summary>
+        </member>
+        <member name="M:RedBackEndApi.Controllers.UsuariosController.PaginaUsuarios(RedBackEnd.Business.Modelos.FiltroUsuariosModel,System.Int32,System.Int32)">
+            <summary>
+            Devuelve un listado filtrado y paginado
+            </summary>
+            <param name="filtro"></param>
+            <param name="numPagina"></param>
+            <param name="longPagina"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RedBackEndApi.Controllers.UsuariosController.CreaUsuario(RedBackEnd.Business.Modelos.UsuarioModel)">
+            <summary>
+            Funcion para registrar nuevos usuarios
+            </summary>
+            <param name="usuario"></param>
+            <returns></returns>
+            <exception cref="T:Microsoft.AspNetCore.Http.BadHttpRequestException"></exception>
+        </member>
+        <member name="M:RedBackEndApi.Controllers.UsuariosController.ActualizaUsuario(RedBackEnd.Business.Modelos.UsuarioModel)">
+            <summary>
+            Actualiza un usuario existente
+            </summary>
+            <param name="usuario"></param>
+            <returns></returns>
+            <exception cref="T:Microsoft.AspNetCore.Http.BadHttpRequestException"></exception>
+        </member>
+        <member name="M:RedBackEndApi.Controllers.UsuariosController.EliminaUsuario(System.Int32)">
+            <summary>
+            Elimina un usuario existente
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RedBackEndApi.Controllers.UsuariosController.ObtenerUsuario(System.Int32)">
+            <summary>
+            Obtiene un usuario en especifico
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RedBackEndApi.Extensions.ApiBehaviorExtension">
+            <summary>
+            Extension para configurar el comportamiento de una validacion de modelo erronea
+            </summary>
+        </member>
+        <member name="M:RedBackEndApi.Extensions.ApiBehaviorExtension.AddApiBehavior(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Metodo para establecer el comportamiento
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="T:RedBackEndApi.Extensions.ExceptionHandlerExtension">
+            <summary>
+            Extension para manejo de excepciones no controladas
+            </summary>
+        </member>
+        <member name="M:RedBackEndApi.Extensions.ExceptionHandlerExtension.UseJsonExceptionHandler(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            Captura las excepciones no controladas y genera una respuesta en formato JSON
+            </summary>
+            <param name="app"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RedBackEndApi.Extensions.JwtAuthenticationExtension">
+            <summary>
+            Extension para configuracion de autenticacion de Jwt
+            </summary>
+        </member>
+        <member name="M:RedBackEndApi.Extensions.JwtAuthenticationExtension.AddJwtAuthentication(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Agrega los parametros que debe cumplir el JWT para autenticar al usuario
+            </summary>
+            <param name="services"></param>
+            <param name="configuration"></param>
+            <returns></returns>
+            <exception cref="T:System.Net.Http.HttpRequestException"></exception>
+        </member>
+        <member name="M:RedBackEndApi.Extensions.JwtAuthenticationExtension.AddJwtAuthorization(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Agrega las politicas de autorizacion al servicio
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RedBackEndApi.Program">
+            <summary>
+            Clase principal del API
+            </summary>
+        </member>
+        <member name="M:RedBackEndApi.Program.Main(System.String[])">
+            <summary>
+            Metodo principal del API
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:RedBackEndApi.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            Constructor del API
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RedBackEndApi.Startup">
+            <summary>
+            Clase para configuración del API
+            </summary>
+        </member>
+        <member name="P:RedBackEndApi.Startup.Configuration">
+            <summary>
+            Interfaz del objeto Configuration
+            </summary>
+        </member>
+        <member name="M:RedBackEndApi.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:RedBackEndApi.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Configuración de servicios
+            </summary>                                           
+            <param name="services"></param>
+        </member>
+        <member name="M:RedBackEndApi.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            Configuración de la aplicación
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

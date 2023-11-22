@@ -1,0 +1,17 @@
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Business\bin\Debug\net6.0\RedBackEnd.Business.deps.json
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Business\bin\Debug\net6.0\RedBackEnd.Business.dll
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Business\bin\Debug\net6.0\RedBackEnd.Business.pdb
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Business\bin\Debug\net6.0\RedBackEnd.Data.dll
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Business\bin\Debug\net6.0\RedBackEnd.Domain.dll
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Business\bin\Debug\net6.0\RedBackEnd.Data.pdb
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Business\bin\Debug\net6.0\RedBackEnd.Domain.pdb
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Business\obj\Debug\net6.0\RedBackEnd.Business.csproj.AssemblyReference.cache
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Business\obj\Debug\net6.0\RedBackEnd.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Business\obj\Debug\net6.0\RedBackEnd.Business.AssemblyInfoInputs.cache
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Business\obj\Debug\net6.0\RedBackEnd.Business.AssemblyInfo.cs
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Business\obj\Debug\net6.0\RedBackEnd.Business.csproj.CoreCompileInputs.cache
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Business\obj\Debug\net6.0\RedBackEnd.Business.csproj.CopyComplete
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Business\obj\Debug\net6.0\RedBackEnd.Business.dll
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Business\obj\Debug\net6.0\refint\RedBackEnd.Business.dll
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Business\obj\Debug\net6.0\RedBackEnd.Business.pdb
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Business\obj\Debug\net6.0\ref\RedBackEnd.Business.dll

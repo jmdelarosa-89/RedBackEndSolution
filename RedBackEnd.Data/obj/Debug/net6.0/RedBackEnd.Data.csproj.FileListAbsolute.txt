@@ -1,0 +1,17 @@
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Data\bin\Debug\net6.0\RedBackEnd.Data.deps.json
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Data\bin\Debug\net6.0\RedBackEnd.Data.runtimeconfig.json
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Data\bin\Debug\net6.0\RedBackEnd.Data.dll
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Data\bin\Debug\net6.0\RedBackEnd.Data.pdb
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Data\bin\Debug\net6.0\RedBackEnd.Domain.dll
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Data\bin\Debug\net6.0\RedBackEnd.Domain.pdb
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Data\obj\Debug\net6.0\RedBackEnd.Data.csproj.AssemblyReference.cache
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Data\obj\Debug\net6.0\RedBackEnd.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Data\obj\Debug\net6.0\RedBackEnd.Data.AssemblyInfoInputs.cache
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Data\obj\Debug\net6.0\RedBackEnd.Data.AssemblyInfo.cs
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Data\obj\Debug\net6.0\RedBackEnd.Data.csproj.CoreCompileInputs.cache
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Data\obj\Debug\net6.0\RedBackEnd.Data.csproj.CopyComplete
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Data\obj\Debug\net6.0\RedBackEnd.Data.dll
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Data\obj\Debug\net6.0\refint\RedBackEnd.Data.dll
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Data\obj\Debug\net6.0\RedBackEnd.Data.pdb
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Data\obj\Debug\net6.0\RedBackEnd.Data.genruntimeconfig.cache
+C:\Sources\Entrevistas\Redbrow\RedBackEndSolution\RedBackEnd.Data\obj\Debug\net6.0\ref\RedBackEnd.Data.dll
