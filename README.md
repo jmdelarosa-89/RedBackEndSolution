@@ -1,6 +1,8 @@
 # RedBackEndSolution
 Repositorio de prueba BackEnd
 
+Desarrollado bajo el patrón Repository & Unit of Work.
+
 El repositorio expone Endpoints para realizar operaciones CRUD sobre una base de usuarios.
 Además agrega un endpoint de Login para validar las credenciales de los usuarios registrados.
 
